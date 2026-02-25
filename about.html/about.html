@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Nchelenge Secondary School Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Nchelenge Secondary School Board</h1>
+    <nav class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="subjects.html">Subjects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" onclick="toggleNav()">☰</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Our School</h2>
+      <p>Nchelenge Secondary School Board is committed to providing excellent education and fostering values, discipline, and personal growth in all students.</p>
+      <p>We aim to develop leaders who will contribute positively to society through knowledge, skills, and character.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Nchelenge Secondary School Board. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      const nav = document.querySelector('.nav-bar');
+      nav.classList.toggle('nav-visible');
+    }
+  </script>
+</body>
+</html>
